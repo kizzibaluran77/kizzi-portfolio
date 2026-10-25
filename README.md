@@ -2,7 +2,7 @@
 
 A responsive personal portfolio built with React, Tailwind CSS, and GSAP. It introduces me, shares my background, showcases my projects, and links to my GitHub, LinkedIn, and email.
 
-**Live site:** YOUR-LIVE-URL
+**Live site:** https://kizzi-portfolio.vercel.app
 
 ![Portfolio screenshot](docs/screenshot.png)
 
@@ -27,27 +27,37 @@ A responsive personal portfolio built with React, Tailwind CSS, and GSAP. It int
 
 1. Clone the repository:
 
+   ```bash
    git clone https://github.com/kizzibaluran77/kizzi-portfolio.git
+   ```
 
 2. Go into the folder and install dependencies:
 
+   ```bash
    cd kizzi-portfolio
    npm install
+   ```
 
 3. Start the dev server:
 
+   ```bash
    npm run dev
+   ```
 
 4. Build for production:
 
+   ```bash
    npm run build
+   ```
 
 ## Project Structure
 
+```
 src/
   components/   Navbar, Hero, About, Projects, ProjectCard, Contact, Footer
   data/         projects.js (project content)
   pages/        Home, NotFound
+```
 
 ## Contact
 
