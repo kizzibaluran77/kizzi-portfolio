@@ -2,7 +2,7 @@ export default function ProjectCard({ project }) {
   const { title, description, tech, image, github, live } = project
 
   return (
-    <article className="project-card flex flex-col rounded-xl border border-gray-200 bg-white overflow-hidden shadow-sm hover:shadow-lg transition">
+    <article className="project-card flex flex-col rounded-xl border border-gray-200 bg-white overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
       <img
         src={image}
         alt={`${title} screenshot`}

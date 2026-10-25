@@ -20,9 +20,15 @@ export default function Projects() {
         ease: 'power3.out',
         scrollTrigger: {
           trigger: root.current,
-          start: 'top 80%',
+          start: 'top 85%',
+          invalidateOnRefresh: true,
         },
       })
+
+      // re-measure after images and fonts finish loading
+      const refresh = () => ScrollTrigger.refresh()
+      window.addEventListener('load', refresh)
+      return () => window.removeEventListener('load', refresh)
     },
     { scope: root }
   )
