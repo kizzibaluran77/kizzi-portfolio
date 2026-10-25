@@ -1,7 +1,18 @@
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import NotFound from './pages/NotFound'
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold text-center mt-10">
-      Tailwind works
-    </h1>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </>
   )
 }
