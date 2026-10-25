@@ -1,16 +1,56 @@
-# React + Vite
+# Kizzi Baluran | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive personal portfolio built with React, Tailwind CSS, and GSAP. It introduces me, shares my background, showcases my projects, and links to my GitHub, LinkedIn, and email.
 
-Currently, two official plugins are available:
+**Live site:** YOUR-LIVE-URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Portfolio screenshot](docs/screenshot.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive, mobile-first layout
+- GSAP entrance animation in the Hero and ScrollTrigger animation on project cards
+- Sticky navbar with a mobile menu
+- Project cards with tech tags, screenshots, and links
+- React Router setup with a custom 404 page, ready for future pages
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React (Vite)
+- React Router
+- Tailwind CSS
+- GSAP and ScrollTrigger
+- React Icons
+- Deployed on Vercel
+
+## Getting Started
+
+1. Clone the repository:
+
+   git clone https://github.com/kizzibaluran77/kizzi-portfolio.git
+
+2. Go into the folder and install dependencies:
+
+   cd kizzi-portfolio
+   npm install
+
+3. Start the dev server:
+
+   npm run dev
+
+4. Build for production:
+
+   npm run build
+
+## Project Structure
+
+src/
+  components/   Navbar, Hero, About, Projects, ProjectCard, Contact, Footer
+  data/         projects.js (project content)
+  pages/        Home, NotFound
+
+## Contact
+
+- Email: kizzibaluran@g.cjc.edu.ph
+- GitHub: https://github.com/kizzibaluran77
+- LinkedIn: https://www.linkedin.com/in/kizzi-baluran-b85b97446/
